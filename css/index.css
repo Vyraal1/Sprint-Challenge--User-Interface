@@ -274,3 +274,35 @@ nav .navbar {
 footer nav {
     margin-bottom: 0px;
 }
+
+/* Contact Page Styling */
+
+#contact-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-label-container, .contact-input-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.contact-label-container {
+    line-height: 21px;
+}
+
+#submit-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.num {
+    font-weight: bold;
+}
