@@ -205,3 +205,43 @@ nav .navbar {
 .box:nth-child(10) {
     background-color: dodgerblue
 }
+
+/* About Page */
+
+.about-start {
+    padding-bottom: 30px;
+    border-bottom: dashed black 1px;
+    margin-bottom: 30px;
+}
+
+.about-item {
+    width: 45%;
+    padding-bottom: 20px;
+    border-bottom: dashed black 1px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.about-item h2 {
+    padding-top: 20px;
+}
+
+.about-item p {
+    padding-bottom: 20px;
+}
+
+.about-item button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    width: 128px;
+    padding: 10px 20px;
+}
+
+#about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
