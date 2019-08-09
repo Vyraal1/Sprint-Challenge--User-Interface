@@ -169,6 +169,10 @@ nav .navbar {
     color: black;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
 /* Superior glorious 24-bit color box styling */
 
 .box:nth-child(1) {
