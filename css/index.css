@@ -103,6 +103,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 500ms;
+}
+
+.box:hover {
+    border-radius: 50%;
 }
 
 .bottom-content {
@@ -242,6 +247,12 @@ nav .navbar {
     border: solid black 2px;
     width: 128px;
     padding: 10px 20px;
+}
+
+.about-item button:hover {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
 }
 
 #about-content {
