@@ -18,7 +18,7 @@
 
 ## Description
 
-In this challenge, you build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation you created.
+In this challenge, you ~~build a missing header (navigation and image) on the home page, update some CSS styling on the home page, and create an additional page (About) which will link from the navigation~~ you created.
 
 In meeting the minimum viable product (MVP) specifications listed below, your web page should look like the solution screen shots of the home and about pages:
 
@@ -123,5 +123,5 @@ After finishing your required elements, you can push your work further. These go
 
 - [ ] Build a page of your choosing from the navigation items. Come up with content and images that fit the theme.
 - [x] Introduce CSS animations to your site.
-- [ ] Build a contact page and create a form with several inputs of your choosing
+- [x] Build a contact page and create a form with several inputs of your choosing
 - [ ] Add responsive breakpoints to your code by using media queries
