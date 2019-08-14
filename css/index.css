@@ -3,48 +3,41 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -82,7 +75,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,12 +97,17 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 500ms;
+}
+
+.box:hover {
+    border-radius: 50%;
 }
 
 .bottom-content {
@@ -143,4 +141,168 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Sprint Code Here */
+
+header {
+    width: 800px;
+    margin: 40px auto;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+nav .navbar {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Superior glorious 24-bit color box styling */
+
+.box:nth-child(1) {
+    background-color: teal;
+}
+
+.box:nth-child(2) {
+    background-color: gold;
+}
+
+.box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.box:nth-child(4) {
+    background-color: coral
+}
+
+.box:nth-child(5) {
+    background-color: crimson
+}
+
+.box:nth-child(6) {
+    background-color: forestgreen
+}
+
+.box:nth-child(7) {
+    background-color: darkorchid
+}
+
+.box:nth-child(8) {
+    background-color: hotpink
+}
+
+.box:nth-child(9) {
+    background-color: indigo
+}
+
+.box:nth-child(10) {
+    background-color: dodgerblue
+}
+
+/* About Page */
+
+.about-start {
+    padding: 0px 20px 30px 20px;
+    border-bottom: dashed black 1px;
+    margin-bottom: 30px;
+}
+
+.about-item {
+    width: 47%;
+    padding-bottom: 20px;
+    border-bottom: dashed black 1px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.about-item img {
+    width: 100%;
+}
+
+.about-item h2 {
+    padding-top: 20px;
+}
+
+.about-item p {
+    padding-bottom: 20px;
+}
+
+.about-item button {
+    background-color: white;
+    border-radius: 10px;
+    border: solid black 2px;
+    width: 128px;
+    padding: 10px 20px;
+}
+
+.about-item button:hover {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+#about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.about-end {
+    margin-bottom: 40px;
+    padding: 0px 20px;
+}
+
+footer nav {
+    margin-bottom: 0px;
+}
+
+/* Contact Page Styling */
+
+#contact-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-label-container, .contact-input-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.contact-label-container {
+    line-height: 21px;
+}
+
+#submit-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.num {
+    font-weight: bold;
 }
