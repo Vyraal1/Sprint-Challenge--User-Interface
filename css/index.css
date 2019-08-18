@@ -251,6 +251,7 @@ nav .navbar {
     border: solid black 2px;
     width: 128px;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .about-item button:hover {
